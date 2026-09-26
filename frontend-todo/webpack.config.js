@@ -45,10 +45,7 @@ module.exports = {
       template: './public/index.html',
       favicon: false,
     }),
-    new Dotenv({
-      systemvars: true,
-      silent: true,
-    }),
+    new Dotenv({ systemvars: true, silent: true }),
     new webpack.DefinePlugin({
       'process.env.REACT_APP_API_URL': JSON.stringify(
         process.env.REACT_APP_API_URL || 'http://localhost:5000/api'

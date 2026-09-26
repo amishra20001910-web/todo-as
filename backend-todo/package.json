@@ -1,0 +1,33 @@
+{
+  "name": "backend-todo",
+  "version": "1.0.0",
+  "description": "Production-ready MVC REST API for Todo Application with Supabase and Express",
+  "main": "src/server.js",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node test_backend.js"
+  },
+  "keywords": [
+    "express",
+    "mvc",
+    "supabase",
+    "postgresql",
+    "rest-api",
+    "jwt",
+    "bcrypt"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.1",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
